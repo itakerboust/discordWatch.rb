@@ -1,0 +1,1 @@
+bot = Discordrb::Bot.new token: ENV['DISCORD_TOKEN']
