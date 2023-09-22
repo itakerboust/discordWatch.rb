@@ -5,4 +5,4 @@ gem 'rspec', '~> 3.12'
 gem 'discordrb', '~> 3.5'
 
 
-gem 'dotenv-rails', groups: [:development, :test]
+gem 'dotenv', '~> 2.8.1'
