@@ -1,6 +1,9 @@
 require 'bundler/setup'
 Bundler.require
 
+# Load all models
+Dir["lib/model/*.rb"].each { |file| require_relative file.sub("lib/", "") }
+
 unless ENV["DISCORD_TOKEN"]
   Dotenv.load
 end
