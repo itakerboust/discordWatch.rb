@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 gem 'rspec', '~> 3.12'
-gem 'discordrb', '~> 3.5'
+gem 'discordrb', github: 'itakerboust/discordrb'
 
 
 gem 'dotenv', '~> 2.8.1'
